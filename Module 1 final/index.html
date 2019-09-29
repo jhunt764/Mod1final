@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Neuton|Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="style.css" />
+
+<body>
+    <h1>Lets Create an ID card!</h1>
+    <form>
+        <label>First Name:</label><br/>
+        <input class="form" id="fn" type="text" /><br/>
+        <label>Last Name:</label><br/>
+        <input class="form" type="text" id="ln" /><br/>
+        <label>Age:</label><br/>
+        <input class="form" type="text" id="age"/><br/>
+        <label>Address:</label><br/>
+        <input class="form" type="text" id="add" /><br/>
+        <label>Phone Number:</label><br/>
+        <input class="form" type="tel" id="pn" /><br/>
+    </form>
+    <button id="button" onclick="idCard()">Get ID Card</button>
+
+
+    <div id="idCard" class="centered">
+
+        <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+
+        <p id="postFullName" class="top"></p>
+
+        <p id="postAge" class="lower"></p>
+
+        <p id="postPhoneNumber" class="lower"></p>
+
+        <p id="postAddress" class="lower"></p>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

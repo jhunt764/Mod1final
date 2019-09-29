@@ -1,0 +1,58 @@
+body{
+    color:black;
+    text-align: center;
+    font-family:font-family: 'Merriweather', serif;
+    background-color:lightblue;
+    font-size: 1.3em;
+    
+}
+.centered {
+    display: block;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius:40px;
+    background-color:rgb(211, 240, 145);
+    color:black;
+    padding-left: 10px;
+}
+
+.top{
+    font-size: 1.9em;
+    font-family: 'Merriweather', serif;;
+    text-align: center;
+    margin-top: 8px;
+}
+.lower{
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    }
+.form{
+    border-radius: 5px;
+}
+#button{
+    margin-top:5px;
+    font-size:.7em;
+    border-radius: 5px;
+    box-shadow: 4px;
+}
+img {
+
+    width: 90px;
+    
+    height: 90px;
+    
+    float: left;
+    
+    }
+    
+    #idCard {
+    
+    border: 5px solid black;
+    
+    height: 14em;
+    
+    width: 25em;
+    
+    }
